@@ -1,0 +1,550 @@
+   14  react-native run-android
+   15  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+   16  brew install node
+   17  brew install watchman
+   18  npm install -g react-native-cli
+   19  sudo npm install -g react-native-cli
+   20  brew doctor
+   21  brew link node
+   22  sudo npm install -g react-native-cli
+   23  brew link --overwrite node
+   24  brew uninstall node
+   25  brew install node
+   26  npm install -g react-native-cli
+   27  npm install -g react-native-cli
+   28  brew postinstall node
+   29  npm install -g react-native-cli
+   30  brew install node
+   31  brew link node
+   32  brew link node
+   33  brew link --overwrite node
+   34  npm install -g react-native-cli
+   35  brew uninstall node
+   36  brew uninstall node
+   37  brew uninstall watchmen
+   38  brew uninstall react-native-cli
+   39  brew install node
+   40  brew install node
+   41  brew install node
+   42  brew link node
+   43  brew postinstall node
+   44  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+   45  brew install watchman
+   46  sudo npm install -g react-native-cli
+   47  cd Desktop
+   48  react-native init reactTutorialApp
+   49  react-native init reactTutorialApp
+   50  cd ./reactTutorialApp/ios && pod install
+   51  react-native init reactTutorialApp
+   52  react-native init reactTutorialApp
+   53  react-native init reactTutorialApp
+   54  pod repo update
+   55  pod install
+   56  xcrun -k --sdk iphoneos --show-sdk-path
+   57  sudo xcode-select --switch /Applications/Xcode.app
+   58  pod install
+   59  react-native init reactTutorialApp
+   60  cd reactTutorialApp
+   61  react-native start
+   62  /Users/alimuhammad/reactTutorialApp/ios/reactTutorialApp/node_modules/react-native/scripts/launchPackager.command ; exit;
+   63  react-native run-ios
+   64  react-native run-ios
+   65  react-native init reactTutorialApp
+   66  react-native run-ios
+   67  /Users/alimuhammad/Desktop/reactTutorialApp/node_modules/react-native/scripts/launchPackager.command ; exit;
+   68  /Users/alimuhammad/Desktop/AwesomeProject/node_modules/react-native/scripts/launchPackager.command ; exit;
+   69  brew install node
+   70  cd desktop
+   71  ls
+   72  react-native init reactTutorialApp
+   73  react-native run-ios
+   74  react-native run-ios
+   75  cd ..
+   76  ls
+   77  cd khansuf-final 2
+   78  cd khansuf-final 2
+   79  ls
+   80  cd khansuf-final2
+   81  ls
+   82  cd dramas
+   83  cd ..
+   84  cd reactTutorialApp
+   85  cd ..
+   86  cd ali
+   87  react-native run-ios
+   88  cd ..
+   89  react-native init AwesomeProject
+   90  cd AwesomeProject
+   91  react-native run-ios
+   92  react-native-cli run-android
+   93  node -v
+   94  npm -v
+   95  react-native-cli -v
+   96  npm install -g react-native-cli
+   97  react-native-cli run-android
+   98  npm install - g react-native-cli
+   99  npm install -g react-native-cli
+  100  sudo npm install -g react-native-cli
+  101  /Users/alimuhammad/Library/Android/sdk/emulator/emulator ; exit;
+  102  sudo npm install -g react-native-cli
+  103  react-native-cli -v
+  104  react-native -v
+  105  LS
+  106  cd desktop
+  107  react-native upgrade
+  108  ls
+  109  cd khansuf-2
+  110  cd ali
+  111  ls
+  112  react-native upgrade
+  113  react-native-cli run-android
+  114  Run npm install -g react-native-git-upgrade
+  115  Run npm install -g react-native-git-upgrad
+  116  npm install -g react-native-git-upgrade
+  117  sudo npm install -g react-native-git-upgrade
+  118  react-native-git-upgrade
+  119  sudo react-native-git-upgrade
+  120  npm install react-native-git-upgrade
+  121  react-native-git-upgrade
+  122  react-native-upgrade
+  123  react-native upgrade
+  124  react-native upgrade
+  125  ls
+  126  react-native eject
+  127  react-native inti new
+  128  /Users/alimuhammad/Library/Android/sdk/emulator/emulator ; exit;
+  129  /Users/alimuhammad/Library/Android/sdk/emulator/qemu-img ; exit;
+  130  /Users/alimuhammad/Desktop/ChatApp1/simple-chat/node_modules/react-native/packager/launchPackager.command ; exit;
+  131  git clone https://github.com/Stackcasts/firebase-react-native.git
+  132  ls
+  133  cd firebase-react-native
+  134  npm install
+  135  ls
+  136  cd firebase-react-native
+  137  react run-ios
+  138  react-native run-ios
+  139  ls
+  140  react-native eject
+  141  /Users/alimuhammad/Desktop/newone/node_modules/react-native/scripts/launchPackager.command ; exit;
+  142  /Users/alimuhammad/Desktop/newone/node_modules/react-native/scripts/launchPackager.command ; exit;
+  143  /Users/alimuhammad/Desktop/ChatApp/node_modules/react-native/scripts/launchPackager.command ; exit;
+  144  /Users/alimuhammad/Desktop/ChatApp/node_modules/react-native/scripts/launchPackager.command ; exit;
+  145  cd newone
+  146  cd desktop
+  147  cd newone
+  148  react-native run-ios
+  149  react-native run-android
+  150  react-native run-android
+  151  cd ..
+  152  git clone https://github.com/anhtuank7c/simple-chat.git
+  153  cd simple-chat
+  154  react-native run-ios
+  155  react-native run-ios
+  156  ls
+  157  react-native run
+  158  cd ..
+  159  git clone https://github.com/duytq94/react-native-chat-demo.git
+  160  ls
+  161  cd react-native-chat-demo
+  162  react-native run-ios
+  163  ls
+  164  cd ..
+  165  git clone https://github.com/mahmoud-elshahat/ChatApp.git
+  166  ls
+  167  cd chatapp
+  168  react-native run-ios
+  169  npm install
+  170  react-native run-ios
+  171  react-native run-android
+  172  react-native run-android
+  173  react-native run-android
+  174  react-native run-ios
+  175  react-native run-ios
+  176  react-native run-ios
+  177  react-native run-ios
+  178  ls
+  179  react-native run-android
+  180  npm install
+  181  react-native run-android
+  182  react-native run-android
+  183  chmod 755 android/gradlew
+  184  react-native run-android
+  185  npm install
+  186  sudo react-native run-android
+  187  /Users/alimuhammad/Desktop/ChatApp/node_modules/react-native/scripts/launchPackager.command ; exit;
+  188  ls
+  189  cd desktop
+  190  ls
+  191  gcc -o mCopy copyFileUsingComLinArgs.c
+  192  ls -l mCopy
+  193  ./mCopy
+  194  ls -l file.in
+  195  ./mCopy file.in file.out
+  196  ls
+  197  pico file.in
+  198  ls
+  199  ./mCopy file.in file.out
+  200  dtruss 
+  201  dtruss mCopy
+  202  sudo dtruss mCopy
+  203  ls
+  204  echo "$PATH"
+  205  sudo dtruss ./mCopy
+  206  echo "$PATH"
+  207  sudo dtruss ./mCopy file.in file.out
+  208  man dtruss
+  209  sudo dtruss ./mCopy -c file.in file.out
+  210  sudo dtruss ./mCopy -c
+  211  sudo dtruss -c ./mCopy 
+  212  sudo dtruss -e open ./mCopy 
+  213  sudo dtruss -e open ./mCopy file.in file.out
+  214  sudo dtruss -e open ./mCopy file.in file.out
+  215  sudo dtruss -e open ./mCopy file.in file.out
+  216  clear
+  217  dtruss 
+  218  sudo dtruss -t open ./mCopy file.in file.out
+  219  sudo dtruss -t open ./mCopy file.in file.out
+  220  command > output.txt
+  221  ls output.txt
+  222  command >> output.txt
+  223  command | tee ~/outputfile.txt
+  224  command | tee outputfile.txt
+  225  ls
+  226  history > output.txt
+  227  /anaconda3/bin/jupyter_mac.command ; exit;
+  228  cd desktop
+  229  pico Due
+  230  ls
+  231  pico Due.txt
+  232  bash -c 'clear; cd "/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/DotNetCore.Debugger/Adapter/"; "/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/DotNetCore.Debugger/Adapter/vsdbg" --interpreter=vscode --connection=/var/folders/q2/ntr32lzn2s1czhqsmkvdn4rr0000gn/T/CoreFxPipe_vsdbg-ui-7743353a83ed43f8bca7666966c283a5; echo $? > /var/folders/q2/ntr32lzn2s1czhqsmkvdn4rr0000gn/T/tmp19788c13.tmp; echo; read -p "Press any key to continue..." -n1; exit'; exit
+  233  bash -c 'clear; cd "/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/DotNetCore.Debugger/Adapter/"; "/Applications/Visual Studio.app/Contents/Resources/lib/monodevelop/AddIns/DotNetCore.Debugger/Adapter/vsdbg" --interpreter=vscode --connection=/var/folders/q2/ntr32lzn2s1czhqsmkvdn4rr0000gn/T/CoreFxPipe_vsdbg-ui-64d922c5ea1f49e5a12fee089d3ea699; echo $? > /var/folders/q2/ntr32lzn2s1czhqsmkvdn4rr0000gn/T/tmp5e9cfc41.tmp; echo; read -p "Press any key to continue..." -n1; exit'; exit
+  234  sudo tmutil thinlocalsnapshots / 999999999999
+  235  sudo tmutil thinlocalsnapshots / 999999999999
+  236  sudo tmutil thinlocalsnapshots / 999999999999
+  237  sudo tmutil thinlocalsnapshots / 999999999999
+  238  dd if=/dev/zero of=~/stupidfile.crap
+  239  sudo /Library/Application\ Support/Paragon\ Software/com.paragon-software.ntfs.uninstall
+  240  sudo rm -rf "/Library/Application Support/Paragon Software/"
+  241  sudo rm /Library/LaunchDaemons/com.paragon-software.installer.plist
+  242  sudo rm /Library/LaunchDaemons/com.paragon-software.ntfs.loader.plist
+  243  sudo rm /Library/LaunchDaemons/com.paragon-software.ntfsd.plist
+  244  sudo rm /Library/LaunchAgents/com.paragon-software.ntfs.notification-agent.plist
+  245  sudo rm -rf /Library/Filesystems/ufsd_NTFS.fs/
+  246  sudo rm -rf /Library/PrivilegedHelperTools/com.paragon-software.installer
+  247  sudo rm -rf /Library/Extensions/ufsd_NTFS.kext/
+  248  sudo rm -rf /Library/PreferencePanes/ParagonNTFS.prefPane
+  249  /Users/alimuhammad/Desktop/Operating\ Systems\ Analysis/Week\ 1/mCopy ; exit;
+  250  gcc -o 2-shm 2-shm-posix-producer-fig-3_17.c -lrt
+  251  gcc -o 2-shm 2-shm-posix-producer-fig-3_17.c 
+  252  ./2-shm
+  253  gcc -o 3-shm 3-shm-posix-consumer-fig3_18.c
+  254  ./3-shm
+  255  history | grep trace
+  256  history | grep cp
+  257  ls -lR / | more
+  258  cd desktop
+  259  cd operating system analysis
+  260  ls
+  261  cd week 2 os
+  262  cd Week 2 OS
+  263  cd week2os
+  264  ls
+  265  cd Week 2 OS
+  266  cd week2os
+  267  ls
+  268  ls -l
+  269  chmod Week 2 OS 655
+  270  cd Week 2 OS
+  271  chmod Week 2 OS 777
+  272  chmod 777 Week 2 OS
+  273  gcc -o 
+  274  gcc -o 1-newproc-posix-fig3_09
+  275  gcc -o 1-newproc-posix-fig3_09
+  276  ls
+  277  gcc -o 1-newproc-posix-fig3_09.c
+  278  ls
+  279  gcc -o 1-newproc-posix-fig3_09.c
+  280  gcc -o 1-newproc 1-newproc-posix-fig3_09.c
+  281  ./1-newproc
+  282  clear
+  283  cd desktop
+  284  cat 4-socketServer > channel
+  285  cat 4-socketServer.c > channel
+  286  history 30
+  287  history > history2nd.txt
+  288  cd desktop
+  289  gcc -o 4-server 4-socketServer.c
+  290  gcc -o 5-client 5-socketClient.c
+  291  ./4 server
+  292  ./4-server
+  293  sudo ./4-server
+  294  gcc -o 6-unix_pipe 6-unix_pipe-fig-3_25
+  295  gcc -o 6-unix_pipe 6-unix_pipe-fig-3_25.c
+  296  ./6-unix_pipe
+  297  man mknod
+  298  gcc testing.c
+  299  pico testing.c
+  300  mknod channel p
+  301  gcc testing.c
+  302  mkfifo channel p
+  303  cat < channel
+  304  cat < channel
+  305  cat < channel
+  306  history 25
+  307  history < history.txt
+  308  history > history.txt
+  309  /anaconda3/bin/jupyter_mac.command ; exit;
+  310  /anaconda3/bin/jupyter_mac.command ; exit;
+  311  dotnet restore 
+  312  cd desktop
+  313  pico notesHaya.txt
+  314  ls
+  315  pico notesHaya.txt
+  316  cd desktop
+  317  cd Week2OS
+  318  ./8-fifo-recv
+  319  cd desktop
+  320  cd Week2OS
+  321  ./5-client
+  322  ./8-fifo-recv
+  323  cd desktop
+  324  cd week3os
+  325  cd week3os
+  326  cd week2os
+  327  ./8-fifo-recv
+  328  ./8-fifo-recv
+  329  ls
+  330  rm fifo
+  331  ./8-fifo-recv
+  332  cd week 2 os
+  333  ls
+  334  cd desktop
+  335  cd week 2 os
+  336  ls
+  337  cd Week 2 OS
+  338  cd Week2OS
+  339  ls
+  340  ./2-shm
+  341  ./1-shm
+  342  ./1-newproc
+  343  ./1-newproc
+  344  ./7-fifo_pipes
+  345  lol
+  346  ./7-fifo_pipes
+  347  ./7-fifo_pipes
+  348  ./7-fifo_pipes
+  349  ./7-fifo_pipes 123456
+  350  ./3-shm
+  351  gcc -0 3-shm 2-shm-posix-producer-fig-3_17.c
+  352  gcc -o 3-shm 2-shm-posix-producer-fig-3_17.c
+  353  ./3-shm
+  354  gcc -0 2-shm 2-shm-posix-producer-fig-3_17.c
+  355  gcc -o 2-shm 2-shm-posix-producer-fig-3_17.c
+  356  gcc -o 3-shm 3-shm-posix-consumer-fig3_18.c
+  357  ./3-shm
+  358  ./2-shm
+  359  ./3-shm
+  360  gcc -o 2-shm 2-shm-posix-producer-fig-3_17.c -lrt
+  361  gcc -o 2-shm 2-shm-posix-producer-fig-3_17.c 
+  362  ./2-shm
+  363  gcc -o 3-shm 3-shm-posix-consumer-fig3_18.c
+  364  ./3-shm
+  365  gcc -o 2-shm 2-shm-posix-producer-fig-3_17.c
+  366  ./2-shm
+  367  gcc -o 3-shm 3-shm-posix-consumer-fig3_18.c
+  368  ./3-shm
+  369  gcc -o 3-shm 3-shm-posix-consumer-fig3_18.c -lrt
+  370  gcc -o 3-shm 3-shm-posix-consumer-fig3_18.c -v
+  371  ./3-shm
+  372  gcc -o 2-shm 2-shm-posix-producer-fig-3_17.c
+  373  ./2-shm
+  374  gcc -o 3-shm 3-shm-posix-consumer-fig3_18.c -v
+  375  ./3-shm
+  376  gcc -o 2-shm 2-shm-posix-producer-fig-3_17.c
+  377  ./2-shm
+  378  gcc -o 2-shm 2-shm-posix-producer-fig-3_17.c
+  379  ./2-shm
+  380  gcc -o 2-shm 2-shm-posix-producer-fig-3_17.c
+  381  ./2-shm
+  382  gcc -o 2-shm 2-shm-posix-producer-fig-3_17.c
+  383  ./2-shm
+  384  gcc -o 2-shm 2-shm-posix-producer-fig-3_17.c
+  385  ./2-shm
+  386  ./3-shm
+  387  ./3-shm
+  388  gcc -o 2-shm 2-shm-posix-producer-fig-3_17.c
+  389  ./2-shm
+  390  ./3-shm
+  391  gcc -o 2-shm 2-shm-posix-producer-fig-3_17.c
+  392  ./2-shm
+  393  ./3-shm
+  394  gcc -o 2-shm 2-shm-posix-producer-fig-3_17.c
+  395  ./2-shm
+  396  ./3-shm
+  397  gcc -o 2-shm 2-shm-posix-producer-fig-3_17.c
+  398  ./2-shm
+  399  ./3-shm
+  400  ./4-server
+  401  ./4-server 123
+  402  ./4-server
+  403  sudo ./4-server
+  404  gcc -o 4-server 4-socketServer.c
+  405  gcc -o 4-server 4-socketServer.c
+  406  gcc -o 4-server 4-socketServer.c
+  407  gcc -o 4-server 4-socketServer.c
+  408  sudo gcc -o 4-server 4-socketServer.c
+  409    
+  410  sudo ./4-server
+  411  ls
+  412  gcc -o 4-server 4-socketServer.c
+  413  sudo ./4-server
+  414  gcc -o 4-server 4-socketServer.c
+  415  gcc -o 5-client 5-socketClient.c
+  416  ./4-server
+  417  gcc -o 4-server 4-socketServer.c
+  418  ./4-server
+  419  cat 4-socketServer.c > channel
+  420  ./4-server
+  421  sudo ./4-server
+  422  ./6-unix_pipe
+  423  ./7-fifo_pipes
+  424  ./7-fifo_pipes lol
+  425  ./7-fifo_pipes lol
+  426  ./7-fifo_pipes lol asidfhaisjda
+  427  ls
+  428  cd desktop
+  429  ls
+  430  rm p
+  431  rm channel 
+  432  rm fifo
+  433  cd desktop
+  434  cd Week2os
+  435  ls
+  436  ./8-fifo-recv
+  437  rm fifo
+  438  ./8-fifo-recv
+  439  ./7-fifo_pipes lol
+  440  cd desktop
+  441  cd week02os
+  442  cd week2os
+  443  ./7-fifo_pipes lol
+  444  cd desktop
+  445  ls
+  446  ./lab1 due2
+  447  ./lab1 due2.txt output.txt
+  448  gcc -o labwork lab1.c
+  449  chmod 777 test.txt
+  450  ./labwork test.txt output.txt
+  451  /anaconda3/bin/jupyter_mac.command ; exit;
+  452  /anaconda3/bin/jupyter_mac.command ; exit;
+  453  /anaconda3/bin/jupyter_mac.command ; exit;
+  454  /anaconda3/bin/jupyter_mac.command ; exit;
+  455  /anaconda3/bin/jupyter_mac.command ; exit;
+  456  /anaconda3/bin/jupyter_mac.command ; exit;
+  457  cd desktop
+  458  gcc -o org-name producer-consumer.c -lpthread
+  459  ./org-name 20 3 3
+  460  history << history.txt
+  461  history >> history.txt
+  462  history
+  463  history >> history.txt
+  464  cd library
+  465  cd developer
+  466  cd coresimulator/Devices/
+  467  ls
+  468  cd CD77DDDA-CAD3-436F-B200-DE3F7CADE3AC/
+  469  ls
+  470  cd data/containers/data/application
+  471  ls
+  472  Cd 54DC43AC-D684-4BFA-B2CC-901431472F21/
+  473  cd Documents/myDatabase.db
+  474  ls
+  475  cd 54DC43AC-D684-4BFA-B2CC-901431472F21/
+  476  cd Documents
+  477  ls
+  478  cd myDatabase.db
+  479  ls 
+  480  cd ..
+  481  ls
+  482  cd Documents/myDatabase.db
+  483  history >> findDB.txt
+  484  ls
+  485  mv FindDB.txt Desktop
+  486  ls
+  487  ls
+  488  cd desktop
+  489  cd..
+  490  cd ..
+  491  cd ..
+  492  cd ..
+  493  cd ..
+  494  cd ..
+  495  cd ..
+  496  cd .
+  497  cd ..
+  498  cd ..
+  499  cd ..
+  500  cd ..
+  501  cd ..
+  502  cd desktop
+  503  cd ..
+  504  cd desktop
+  505  ls
+  506  cd ..
+  507  ls
+  508  cd users
+  509  cd ali
+  510  cd alimuhammad
+  511  ls
+  512  cd desktop
+  513  history >> findDB.txt
+  465  cd developer
+  466  cd coresimulator/Devices/
+  467  ls
+  468  cd CD77DDDA-CAD3-436F-B200-DE3F7CADE3AC/
+  469  ls
+  470  cd data/containers/data/application
+  471  ls
+  472  Cd 54DC43AC-D684-4BFA-B2CC-901431472F21/
+  473  cd Documents/myDatabase.db
+  474  ls
+  475  cd 54DC43AC-D684-4BFA-B2CC-901431472F21/
+  476  cd Documents
+  477  ls
+  478  cd myDatabase.db
+  479  ls 
+  480  cd ..
+  481  ls
+  482  cd Documents/myDatabase.db
+  483  history >> findDB.txt
+  484  ls
+  485  mv FindDB.txt Desktop
+  486  ls
+  487  ls
+  488  cd desktop
+  489  cd..
+  490  cd ..
+  491  cd ..
+  492  cd ..
+  493  cd ..
+  494  cd ..
+  495  cd ..
+  496  cd .
+  497  cd ..
+  498  cd ..
+  499  cd ..
+  500  cd ..
+  501  cd ..
+  502  cd desktop
+  503  cd ..
+  504  cd desktop
+  505  ls
+  506  cd ..
+  507  ls
+  508  cd users
+  509  cd ali
+  510  cd alimuhammad
+  511  ls
+  512  cd desktop
+  513  history >> findDB.txt
+  514  history 50 >> findDB.txt

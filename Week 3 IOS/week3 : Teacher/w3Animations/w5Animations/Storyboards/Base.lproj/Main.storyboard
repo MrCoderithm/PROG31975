@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="w5Animations" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" alpha="0.5" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="city.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="h3S-jP-Ufc">
+                                <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eks-pv-LO9">
+                                <rect key="frame" x="11" y="137" width="205" height="200"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="munkee.png"/>
+                                <connections>
+                                    <segue destination="57w-8m-laR" kind="presentation" id="bd2-X9-yDo"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cuo-az-Kpv">
+                                <rect key="frame" x="229" y="25" width="205" height="200"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="dunkee.png"/>
+                                <connections>
+                                    <segue destination="czC-U2-yII" kind="presentation" id="DFH-ak-TMB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uEo-jX-cr3">
+                                <rect key="frame" x="442" y="155" width="205" height="200"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" backgroundImage="munkee.png"/>
+                                <connections>
+                                    <segue destination="V5i-WU-mOf" kind="presentation" id="lla-bD-TIw"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-78.710644677661179" y="133.59999999999999"/>
+        </scene>
+        <!--Fly View Controller-->
+        <scene sceneID="fmW-Yj-0di">
+            <objects>
+                <viewController id="czC-U2-yII" customClass="FlyViewController" customModule="w5Animations" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fxn-JB-Jmk">
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BN9-Ct-kr3">
+                                <rect key="frame" x="0.0" y="0.0" width="667" height="32"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="barTintColor" red="0.80702078249999998" green="0.83770644419999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <items>
+                                    <navigationItem title="Fly" id="nYP-Lv-Unz">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="gdU-RD-DQl">
+                                            <connections>
+                                                <segue destination="fen-9B-XkI" kind="unwind" unwindAction="unwindToHomeWithSegue:" id="QCw-q5-3ud"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <imageView userInteractionEnabled="NO" alpha="0.20000000000000001" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="city.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="FOf-QZ-mAg">
+                                <rect key="frame" x="0.0" y="32" width="667" height="343"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="6fq-Mo-i3Y">
+                                <rect key="frame" x="222" y="100" width="223" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="volumeDidChangeWithSender:" destination="czC-U2-yII" eventType="valueChanged" id="Gdx-uR-eCW"/>
+                                    <action selector="volumeDidChangeWithSender:" destination="57w-8m-laR" eventType="valueChanged" id="ZAH-mt-1Xv"/>
+                                </connections>
+                            </slider>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Volume" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Es2-kD-wbq">
+                                <rect key="frame" x="277" y="64" width="112" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="flw-YF-3Oy"/>
+                    </view>
+                    <connections>
+                        <outlet property="volSlider" destination="6fq-Mo-i3Y" id="MKR-eo-43B"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="biJ-Z3-PAA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="fen-9B-XkI" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="616.64167916041981" y="140"/>
+        </scene>
+        <!--Fade View Controller-->
+        <scene sceneID="eIv-W9-Dk6">
+            <objects>
+                <viewController id="V5i-WU-mOf" customClass="FadeViewController" customModule="w5Animations" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8vb-Hd-r4f">
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2gO-zv-LGe">
+                                <rect key="frame" x="0.0" y="0.0" width="667" height="32"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="barTintColor" red="0.80702078249999998" green="0.83770644419999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <items>
+                                    <navigationItem title="Fade" id="Xib-Nj-uKb">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="Lf7-Lh-llP">
+                                            <connections>
+                                                <segue destination="gFF-SY-x4p" kind="unwind" unwindAction="unwindToHomeWithSegue:" id="tR4-do-4EO"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <imageView userInteractionEnabled="NO" alpha="0.20000000000000001" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="city.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="sFS-6j-Yz3">
+                                <rect key="frame" x="0.0" y="32" width="667" height="343"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="9Yg-1C-rjn">
+                                <rect key="frame" x="222" y="100" width="223" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="volumeDidChangeWithSender:" destination="V5i-WU-mOf" eventType="valueChanged" id="7V2-Zi-8m7"/>
+                                    <action selector="volumeDidChangeWithSender:" destination="czC-U2-yII" eventType="valueChanged" id="fhD-0P-YJ4"/>
+                                    <action selector="volumeDidChangeWithSender:" destination="57w-8m-laR" eventType="valueChanged" id="xVY-I8-wUq"/>
+                                </connections>
+                            </slider>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Volume" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f44-Zz-Ifs">
+                                <rect key="frame" x="277" y="64" width="112" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="ynK-Va-KND"/>
+                    </view>
+                    <connections>
+                        <outlet property="volSlider" destination="9Yg-1C-rjn" id="Z77-tq-Etj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Rv0-vG-Rc2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="gFF-SY-x4p" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="602.24887556221893" y="940"/>
+        </scene>
+        <!--Spin View Controller-->
+        <scene sceneID="2u4-e2-8tq">
+            <objects>
+                <viewController id="57w-8m-laR" customClass="SpinViewController" customModule="w5Animations" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8kg-tb-Ulf">
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fLq-dD-fmZ">
+                                <rect key="frame" x="0.0" y="0.0" width="667" height="32"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="barTintColor" red="0.80702078249999998" green="0.83770644419999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <items>
+                                    <navigationItem title="Spin" id="AoK-QW-bKe">
+                                        <barButtonItem key="leftBarButtonItem" title="Back" id="aQ9-AE-gi6">
+                                            <connections>
+                                                <segue destination="gTt-2C-WM0" kind="unwind" unwindAction="unwindToHomeWithSegue:" id="cNY-W8-rZo"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <imageView userInteractionEnabled="NO" alpha="0.20000000000000001" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="city.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Wzy-W3-PI6">
+                                <rect key="frame" x="0.0" y="32" width="667" height="343"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="nBY-uL-j2H">
+                                <rect key="frame" x="222" y="91" width="223" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="volumeDidChangeWithSender:" destination="57w-8m-laR" eventType="valueChanged" id="LiT-d5-weT"/>
+                                </connections>
+                            </slider>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Volume" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PGM-Of-QXr">
+                                <rect key="frame" x="277" y="55" width="112" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="3ru-Uj-ruU"/>
+                    </view>
+                    <connections>
+                        <outlet property="volSlider" destination="nBY-uL-j2H" id="a6v-hk-9U4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AEc-lR-tlc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="gTt-2C-WM0" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="-79.610194902548727" y="936.79999999999995"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="city.jpg" width="1280" height="800"/>
+        <image name="dunkee.png" width="250" height="350"/>
+        <image name="munkee.png" width="300" height="350"/>
+    </resources>
+</document>

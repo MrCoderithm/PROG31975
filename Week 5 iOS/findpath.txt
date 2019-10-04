@@ -1,0 +1,25 @@
+  495  ,/stats 10 20
+  496  ./stats 10 20
+  497  ./stats 10 20 30
+  498  /anaconda3/bin/jupyter_mac.command ; exit;
+  499  cd library
+  500  cd developer
+  501  cd coresimulator
+  502  cd devices
+  503  cd CD77DDDA-CAD3-436F-B200-DE3F7CADE3AC/
+  504  cd data
+  505  cd containers
+  506  cd data
+  507  cd application
+  508  cd 63E02E
+  509  cd 63E02E66-526D-412F-B08A-0F6CCB39E466/
+  510  ls
+  511  cd documents
+  512  ls
+  513  sqlite3 MyDatabase.db 
+  514  rm MyDatabase.db 
+  515  ls
+  516  cd ~
+  517  cd desktop
+  518  history25 >> findpath.txt
+  519  history 25 >> findpath.txt
